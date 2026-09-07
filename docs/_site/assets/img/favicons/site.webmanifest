@@ -3,7 +3,7 @@
 {
   "name": "Ahmed | JdeRobot Internship 2026",
   "short_name": "Ahmed | JdeRobot Internship 2026",
-  "description": "Ahmed's JdeRobot internship progress blog.",
+  "description": "Ahmed's JdeRobot internship progress blog. documenting his work with ROS 2, Gazebo, MoveIt 2, industrial robotics, and open-source robotics.",
   "icons": [
     {
       "src": "/2026-internship-Ahmed-Algharib/assets/img/favicons/android-chrome-192x192.png",

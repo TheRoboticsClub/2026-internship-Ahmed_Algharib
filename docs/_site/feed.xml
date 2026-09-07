@@ -3,8 +3,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://0.0.0.0:4000/2026-internship-Ahmed-Algharib/</id>
   <title>Ahmed | JdeRobot Internship 2026</title>
-  <subtitle>Ahmed's JdeRobot internship progress blog.</subtitle>
-  <updated>2026-09-07T13:37:58+05:30</updated>
+  <subtitle>Ahmed's JdeRobot internship progress blog. documenting his work with ROS 2, Gazebo, MoveIt 2, industrial robotics, and open-source robotics.</subtitle>
+  <updated>2026-09-07T12:46:08+03:00</updated>
   <author>
     <name>Ahmed Algharib</name>
     <uri>http://0.0.0.0:4000/2026-internship-Ahmed-Algharib/</uri>
@@ -22,9 +22,9 @@
   <entry>
     <title>Starting My JdeRobot Internship</title>
     <link href="http://0.0.0.0:4000/2026-internship-Ahmed-Algharib/posts/internship-start/" rel="alternate" type="text/html" title="Starting My JdeRobot Internship" />
-    <published>2026-09-07T12:30:00+05:30</published>
+    <published>2026-09-07T10:00:00+03:00</published>
   
-    <updated>2026-09-07T12:30:00+05:30</updated>
+    <updated>2026-09-07T10:00:00+03:00</updated>
   
     <id>http://0.0.0.0:4000/2026-internship-Ahmed-Algharib/posts/internship-start/</id>
     <content type="text/html" src="http://0.0.0.0:4000/2026-internship-Ahmed-Algharib/posts/internship-start/" />
