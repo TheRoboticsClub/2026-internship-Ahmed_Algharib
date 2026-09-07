@@ -1,0 +1,14 @@
+---
+---
+
+@use 'main{%- if jekyll.environment == 'production' -%}.bundle{%- endif -%}';
+
+/* append your custom style below */
+
+#avatar img {
+  /* This adds padding to the bottom */
+  padding-bottom: 30px;
+  
+  /* Alternative: If you want to shift the crop itself without adding a gap, uncomment the line below */
+  /* object-position: 50% 0%; */
+}

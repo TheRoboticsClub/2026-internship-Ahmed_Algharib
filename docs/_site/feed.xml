@@ -1,0 +1,57 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://0.0.0.0:4000/2026-internship-Ahmed-Algharib/</id>
+  <title>Ahmed | JdeRobot Internship 2026</title>
+  <subtitle>Ahmed's JdeRobot internship progress blog.</subtitle>
+  <updated>2026-09-07T13:37:58+05:30</updated>
+  <author>
+    <name>Ahmed Algharib</name>
+    <uri>http://0.0.0.0:4000/2026-internship-Ahmed-Algharib/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://0.0.0.0:4000/2026-internship-Ahmed-Algharib/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="http://0.0.0.0:4000/2026-internship-Ahmed-Algharib/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2026 Ahmed Algharib </rights>
+  <icon>/2026-internship-Ahmed-Algharib/assets/img/favicons/favicon.ico</icon>
+  <logo>/2026-internship-Ahmed-Algharib/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>Starting My JdeRobot Internship</title>
+    <link href="http://0.0.0.0:4000/2026-internship-Ahmed-Algharib/posts/internship-start/" rel="alternate" type="text/html" title="Starting My JdeRobot Internship" />
+    <published>2026-09-07T12:30:00+05:30</published>
+  
+    <updated>2026-09-07T12:30:00+05:30</updated>
+  
+    <id>http://0.0.0.0:4000/2026-internship-Ahmed-Algharib/posts/internship-start/</id>
+    <content type="text/html" src="http://0.0.0.0:4000/2026-internship-Ahmed-Algharib/posts/internship-start/" />
+    <author>
+      <name>Ahmed Algharib</name>
+    </author>
+
+  
+    
+    <category term="Internship" />
+    
+  
+
+  <summary>Starting My JdeRobot Internship
+
+This week marks the beginning of my internship with JdeRobot and The Robotics Club.
+
+During this internship, I will be working on open-source robotics software and
+industrial robotics applications.
+
+My initial focus is on understanding the existing RoboticsAcademy architecture,
+the development workflow, and the simulation and robotics tools used by the
+project.
+...</summary>
+
+  </entry>
+
+</feed>
+
+
