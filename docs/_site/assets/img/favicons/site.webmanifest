@@ -6,16 +6,16 @@
   "description": "Ahmed's JdeRobot internship progress blog. documenting his work with ROS 2, Gazebo, MoveIt 2, industrial robotics, and open-source robotics.",
   "icons": [
     {
-      "src": "/2026-internship-Ahmed-Algharib/assets/img/favicons/android-chrome-192x192.png",
+      "src": "/2026-internship-Ahmed_Algharib/assets/img/favicons/android-chrome-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/2026-internship-Ahmed-Algharib/assets/img/favicons/android-chrome-512x512.png",
+      "src": "/2026-internship-Ahmed_Algharib/assets/img/favicons/android-chrome-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }],
-  "start_url": "/2026-internship-Ahmed-Algharib/index.html",
+  "start_url": "/2026-internship-Ahmed_Algharib/index.html",
   "theme_color": "#2a1e6b",
   "background_color": "#ffffff",
   "display": "fullscreen"

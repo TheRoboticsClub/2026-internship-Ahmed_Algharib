@@ -1,33 +1,68 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://0.0.0.0:4000/2026-internship-Ahmed-Algharib/</id>
+  <id>https://theroboticsclub.github.io/2026-internship-Ahmed_Algharib/</id>
   <title>Ahmed | JdeRobot Internship 2026</title>
   <subtitle>Ahmed's JdeRobot internship progress blog. documenting his work with ROS 2, Gazebo, MoveIt 2, industrial robotics, and open-source robotics.</subtitle>
-  <updated>2026-09-07T12:46:08+03:00</updated>
+  <updated>2026-09-11T00:27:09+03:00</updated>
   <author>
     <name>Ahmed Algharib</name>
-    <uri>http://0.0.0.0:4000/2026-internship-Ahmed-Algharib/</uri>
+    <uri>https://theroboticsclub.github.io/2026-internship-Ahmed_Algharib/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="http://0.0.0.0:4000/2026-internship-Ahmed-Algharib/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="https://theroboticsclub.github.io/2026-internship-Ahmed_Algharib/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="http://0.0.0.0:4000/2026-internship-Ahmed-Algharib/"/>
+    href="https://theroboticsclub.github.io/2026-internship-Ahmed_Algharib/"/>
   <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
   <rights> © 2026 Ahmed Algharib </rights>
-  <icon>/2026-internship-Ahmed-Algharib/assets/img/favicons/favicon.ico</icon>
-  <logo>/2026-internship-Ahmed-Algharib/assets/img/favicons/favicon-96x96.png</logo>
+  <icon>/2026-internship-Ahmed_Algharib/assets/img/favicons/favicon.ico</icon>
+  <logo>/2026-internship-Ahmed_Algharib/assets/img/favicons/favicon-96x96.png</logo>
 
 
   
   <entry>
+    <title>Week 1 — Gazebo Harmonic Environment and a Static-Scene Pipeline</title>
+    <link href="https://theroboticsclub.github.io/2026-internship-Ahmed_Algharib/posts/week1-gazebo-environment-and-static-scene-pipeline/" rel="alternate" type="text/html" title="Week 1 — Gazebo Harmonic Environment and a Static-Scene Pipeline" />
+    <published>2026-09-10T10:00:00+03:00</published>
+  
+    <updated>2026-09-10T10:00:00+03:00</updated>
+  
+    <id>https://theroboticsclub.github.io/2026-internship-Ahmed_Algharib/posts/week1-gazebo-environment-and-static-scene-pipeline/</id>
+    <content type="text/html" src="https://theroboticsclub.github.io/2026-internship-Ahmed_Algharib/posts/week1-gazebo-environment-and-static-scene-pipeline/" />
+    <author>
+      <name>Ahmed Algharib</name>
+    </author>
+
+  
+    
+    <category term="setup" />
+    
+    <category term="gazebo" />
+    
+  
+
+  <summary>Goal
+
+Set up the robotics simulation toolchain on Ubuntu 24.04, verify that Gazebo Harmonic works alongside ROS 2 Jazzy, and confirm that the end-to-end model-to-screen pipeline is functional before moving into the internship project scope.
+
+Getting Gazebo actually running
+
+Three separate problems were hidden behind the same symptom: gz sim was not found.
+
+
+  Wrong package source. gz-harmonic i...</summary>
+
+  </entry>
+
+  
+  <entry>
     <title>Starting My JdeRobot Internship</title>
-    <link href="http://0.0.0.0:4000/2026-internship-Ahmed-Algharib/posts/internship-start/" rel="alternate" type="text/html" title="Starting My JdeRobot Internship" />
+    <link href="https://theroboticsclub.github.io/2026-internship-Ahmed_Algharib/posts/internship-start/" rel="alternate" type="text/html" title="Starting My JdeRobot Internship" />
     <published>2026-09-07T10:00:00+03:00</published>
   
     <updated>2026-09-07T10:00:00+03:00</updated>
   
-    <id>http://0.0.0.0:4000/2026-internship-Ahmed-Algharib/posts/internship-start/</id>
-    <content type="text/html" src="http://0.0.0.0:4000/2026-internship-Ahmed-Algharib/posts/internship-start/" />
+    <id>https://theroboticsclub.github.io/2026-internship-Ahmed_Algharib/posts/internship-start/</id>
+    <content type="text/html" src="https://theroboticsclub.github.io/2026-internship-Ahmed_Algharib/posts/internship-start/" />
     <author>
       <name>Ahmed Algharib</name>
     </author>
