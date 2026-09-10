@@ -1,7 +1,12 @@
 _site/
+docs/_site/
 .jekyll-cache/
+docs/.jekyll-cache/
 .sass-cache/
+docs/.sass-cache/
 .bundle/
+docs/.bundle/
 vendor/bundle/
+docs/vendor/bundle/
 *.log
 .DS_Store

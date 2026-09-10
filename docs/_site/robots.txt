@@ -1,5 +1,0 @@
-User-agent: *
-
-Disallow: /norobots/
-
-Sitemap: https://theroboticsclub.github.io/2026-internship-Ahmed_Algharib/sitemap.xml
