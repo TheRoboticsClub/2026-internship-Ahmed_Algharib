@@ -1,0 +1,105 @@
+# The Site Configuration
+
+# One canonical Jekyll setup for this repo.
+# Keep the site source and theme resolution at the repository root so the
+# GitHub Pages action can find the Chirpy theme without ambiguity.
+theme: jekyll-theme-chirpy
+
+lang: en
+timezone: Africa/Cairo
+
+title: Ahmed | JdeRobot Internship 2026
+tagline: Blog tracking my JdeRobot 2026 internship progress.
+description: >-
+  Ahmed's JdeRobot internship progress blog. documenting his work with
+  ROS 2, Gazebo, MoveIt 2, industrial robotics, and open-source robotics.
+
+url: "https://theroboticsclub.github.io"
+
+github:
+  username: ahmedabdallah00
+
+social:
+  name: Ahmed Algharib
+  email: ahmed.algharib42@gmail.com
+  links:
+    - https://github.com/ahmedabdallah00
+
+avatar: /assets/img/ahmed.jpeg
+
+toc: true
+
+comments:
+  provider:
+
+paginate: 10
+
+baseurl: "/2026-internship-Ahmed_Algharib"
+
+kramdown:
+  footnote_backlink: "&#8617;&#xfe0e;"
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: true
+      toc: true
+      permalink: /posts/:title/
+  - scope:
+      path: _drafts
+    values:
+      comments: false
+  - scope:
+      path: ""
+      type: tabs
+    values:
+      layout: page
+      permalink: /:title/
+
+sass:
+  style: compressed
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [development]
+
+exclude:
+  - "*.gem"
+  - "*.gemspec"
+  - docs
+  - tools
+  - README.md
+  - LICENSE
+  - purgecss.js
+  - rollup.config.js
+  - "package*.json"
+
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
