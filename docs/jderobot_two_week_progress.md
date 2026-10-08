@@ -1,4 +1,4 @@
-# JdeRobot Internship — First Two Weeks Progress
+# JdeRobot Internship — Week 2 and Week 3 Progress Report
 
 **Author:** Ahmed Algharib  
 **Project:** JdeRobot / The Robotics Club Internship 2026  

@@ -416,20 +416,6 @@ Use the notebook as a literature-review workspace rather than as the implementat
 # 8. Five Priority Papers
 
 ## 1. robomimic — Offline Robot Manipulation
-
-**Mandlekar et al. — “What Matters in Learning from Offline Human Demonstrations for Robot Manipulation”**
-
-Venue: Conference on Robot Learning (CoRL), 2021/2022 publication.
-
-Why it matters:
-
-- Directly studies learning from robot manipulation demonstrations.
-- Provides reproducible datasets and benchmarks.
-- Compares multiple imitation and offline RL methods.
-- Gives practical lessons about dataset quality, coverage and evaluation.
-
-For this project: the best **methodology/benchmark reference** before training the first policy.
-
 Paper: https://arxiv.org/abs/2108.03298
 
 ---
@@ -437,18 +423,6 @@ Paper: https://arxiv.org/abs/2108.03298
 ## 2. ACT — Action Chunking with Transformers
 
 **Zhao et al. — “Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware”**
-
-Venue: Robotics: Science and Systems (RSS), 2023.
-
-Why it matters:
-
-- Introduces Action Chunking with Transformers.
-- Learns sequences of actions rather than isolated single-step actions.
-- Demonstrates strong manipulation performance from relatively small demonstration sets.
-- Highly relevant to temporally structured manipulation.
-
-For this project: the strongest **advanced imitation-learning candidate after the BC baseline**.
-
 Paper: https://arxiv.org/abs/2304.13705
 
 ---
@@ -456,18 +430,6 @@ Paper: https://arxiv.org/abs/2304.13705
 ## 3. Diffusion Policy
 
 **Chi et al. — “Diffusion Policy: Visuomotor Policy Learning via Action Diffusion”**
-
-Venue: Robotics: Science and Systems (RSS), 2023.
-
-Why it matters:
-
-- Models robot actions as a conditional diffusion process.
-- Handles multimodal behavior.
-- Uses temporal action sequences and receding-horizon control.
-- Provides a strong modern manipulation-learning baseline.
-
-For this project: a strong candidate for a **second-stage comparison against ACT/BC**.
-
 Paper: https://arxiv.org/abs/2303.04137
 
 ---
@@ -475,18 +437,6 @@ Paper: https://arxiv.org/abs/2303.04137
 ## 4. QT-Opt — Reinforcement Learning for Manipulation
 
 **Kalashnikov et al. — “Scalable Deep Reinforcement Learning for Vision-Based Robotic Manipulation”**
-
-Venue: Conference on Robot Learning (CoRL), 2018.
-
-Why it matters:
-
-- Demonstrates large-scale deep RL for robotic grasping.
-- Uses closed-loop visual feedback.
-- Shows how RL can learn manipulation behavior directly from interaction.
-- Provides a useful contrast to demonstration-driven IL.
-
-For this project: primarily an **RL reference**, not the first implementation to reproduce.
-
 Paper: https://arxiv.org/abs/1806.10293
 
 ---
@@ -494,18 +444,6 @@ Paper: https://arxiv.org/abs/1806.10293
 ## 5. OpenVLA — Modern Vision-Language-Action Learning
 
 **Kim et al. — “OpenVLA: An Open-Source Vision-Language-Action Model”**
-
-2024.
-
-Why it matters:
-
-- Represents the modern VLA/foundation-model direction.
-- Uses large-scale robot demonstration data.
-- Supports fine-tuning for new robot settings.
-- Shows where manipulation learning is moving beyond task-specific BC.
-
-For this internship: a **future/generalist-policy direction**, not the immediate baseline.
-
 Paper: https://arxiv.org/abs/2406.09246
 
 ---
