@@ -10,3 +10,4 @@ vendor/bundle/
 docs/vendor/bundle/
 *.log
 .DS_Store
+RoboticsAcademy/
