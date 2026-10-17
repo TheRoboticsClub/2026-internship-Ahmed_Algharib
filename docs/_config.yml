@@ -218,4 +218,4 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
-theme: minima
+theme: jekyll-theme-chirpy
