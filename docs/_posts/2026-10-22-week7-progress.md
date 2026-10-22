@@ -1,6 +1,6 @@
 ---
 title: "Week 7: Workspace Limits, Dataset Generation, and Planning Observations"
-date: 2026-10-24 19:00:00 +0300
+date: 2026-10-22 20:00:00 +0300
 categories: [Internship]
 tags: [ros2, moveit2, mujoco, imitation-learning, mobrt, dataset]
 description: "Testing the kinematic workspace limits of the UR5e, generating a 50-episode imitation learning dataset, and analyzing collision-awareness limitations in the planning pipeline."
