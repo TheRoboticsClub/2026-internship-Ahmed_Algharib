@@ -26,7 +26,7 @@ Following the goal to test whether the relative-coordinate solver works when the
 | 0.1m back | ✅ Success | Smooth, natural movement. |
 | 0.2m back | ✅ Success | Slightly longer trajectory, still highly efficient. |
 | 0.3m back | ✅ Success | Robot stretching near kinematic limits. |
-| 0.4m back | ❌ `NO_IK_SOLUTION`ack | ✅ Success (Borderline) | Planner struggles; joint-space fallback triggered. |
+| 0.4m back | ❌ `NO_IK_SOLUTION`ack | Planner struggles; joint-space fallback triggered. |
 | 0.5m back | ❌ `NO_IK_SOLUTION` | Exceeds UR5e's 850mm physical reach limit. |
 
 This empirically maps the **valid workspace boundary** for this specific pick-and-place task. The relative-coordinate math works perfectly within the reachable envelope — the failure at 0.5m is purely a hardware limit, not a software bug.
