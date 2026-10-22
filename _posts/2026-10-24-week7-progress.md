@@ -61,7 +61,7 @@ Each `.hdf5` file contains:
 
 The project relies on strict synchronization between two parallel worlds: the **MuJoCo Physics World** and the **ROS 2 / MoveIt Planning World**.
 
-![System Architecture: MuJoCo–ROS 2 Integration](/assets/images/system-architecture.png)
+![System Architecture: MuJoCo–ROS 2 Integration](/assets/img/system-architecture.png)
 
 *Figure 1: The data flow between MuJoCo (physics), ROS 2 / MoveIt (planning), and the Python application logic. The red dashed line marks the critical synchronization rule: the robot base position must match exactly in both `ur5e.xml` and `urdf.xacro`, or the TF tree breaks.*
 
