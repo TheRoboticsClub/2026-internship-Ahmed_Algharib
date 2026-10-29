@@ -107,7 +107,6 @@ Running `ros2 run vibe_version pick_place_relative --object yellow_box --episode
 
 The weld constraint in `scene.xml` starts inactive and is controlled by the C++ plugin at runtime:
 
-```xml
 <equality>
   <!-- Starts inactive; plugin flips eq_active to 1 inside the physics step -->
   <weld site1="eef_site" site2="grasp_yellow_box" active="false" 
