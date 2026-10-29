@@ -119,3 +119,52 @@ The weld constraint in `scene.xml` starts inactive and is controlled by the C++ 
   <weld site1="eef_site" site2="grasp_green_cylinder" active="false" 
         solref="0.0015 1" solimp="0.97 0.99 0.001 0.5 2"/>
 </equality>
+ 
+---
+
+## 6. Current Status
+
+- ✅ Package builds; 14/14 tests pass.
+- ✅ Pick-and-place motion verified live (10/10, seeded randomization).
+- ✅ Grasp weld verified: rigid carry, zero lag, gravity release.
+- ✅ Physical collision geometry verified: real contacts, stable placements.
+- ✅ Motion plan verified: straight Cartesian paths, adaptive height, no fallback arcs.
+- ⏳ Recording **not yet verified during a live run** (next step).
+
+---
+
+## 7. Next Steps
+
+1. Run the recorder-enabled task for **one episode** and confirm an HDF5 file is written.
+2. Audit the file (schema, timestamps, metrics, object-pose lock during carry).
+3. Scale collection (≈100 episodes per object) and curate.
+4. Train the imitation-learning policy on the curated dataset (Milestone 5).
+5. Later: plugin instances for the remaining objects, tighter placement tolerance, perception for dynamic obstacles.
+
+---
+
+## 8. Known Limitations (documented, not blocking)
+
+- The weld is an **idealized attachment**, not a contact/force-based suction model; sufficient for clean expert demonstrations.
+- Placement acceptance tolerance is currently forgiving (7 cm XY / 8 cm Z); tighten once repeatability is confirmed.
+- The grasp plugin is configured for `yellow_box`; additional objects need additional plugin instances.
+
+---
+
+## 9. Results Summary
+
+| Metric | Result |
+|---|---|
+| Episodes completed | 10 / 10 |
+| Cartesian coverage | fraction = 1.000 on all segments |
+| Approach length | 0.96 – 1.08 m |
+| Grasp descent | 0.10 – 0.11 m |
+| Lift–transfer–place | 1.09 – 1.21 m (single trajectory) |
+| Retreat | ≈ 0.096 m |
+| Final placement | [0.135–0.136, 0.949–0.950, 0.751] m (≤ 7 mm from bin centre in XY) |
+| Grasp mechanism | Native body-based weld, engaged/released on the physics step |
+
+---
+
+*Prepared 29 October 2026 — vibe_version.*
+
