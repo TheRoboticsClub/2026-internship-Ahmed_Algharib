@@ -1,10 +1,13 @@
 ---
-title: "Week 9: Your Article Title"
+title: "Week 9: Mapping the Limits of Reach — Suction Grasping Under Spatial Variation"
 date: 2026-11-05 09:00:00 +0200
 categories: [Internship]
-tags: [ros2, moveit2, mujoco, robotics]
-description: "A short description of this week's progress."
+tags: [ros2, moveit2, mujoco, suction-gripper, workcell-optimization, reachability, literature-review]
+description: "Integrating a pneumatic suction paradigm, then stress-testing the pipeline across randomized objects, a 14-cell target grid, and three robot-base poses — and what the failures taught us about workcell layout optimization."
 ---
+
+# Week 9 — Mapping the Limits of Reach
+*Suction grasping under spatial variation: objects, targets, and robot bases.*
 # Week 9 — Pneumatic Suction, Spatial-Variation Testing, and Expert Algorithmic Foundations
 
 **Internship:** JdeRobot 2026 — Ahmed Algharib
