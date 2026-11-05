@@ -6,9 +6,7 @@ tags: [ros2, moveit2, mujoco, suction-gripper, workcell-optimization, reachabili
 description: "Integrating a pneumatic suction paradigm, then stress-testing the pipeline across randomized objects, a 14-cell target grid, and three robot-base poses — and what the failures taught us about workcell layout optimization."
 ---
 
-# Week 9 — Mapping the Limits of Reach
-*Suction grasping under spatial variation: objects, targets, and robot bases.*
-# Week 9 — Pneumatic Suction, Spatial-Variation Testing, and Expert Algorithmic Foundations
+# Week 9 — Mapping the Limits of Reach ,Pneumatic Suction, Spatial-Variation Testing, and Expert Algorithmic Foundations
 
 **Internship:** JdeRobot 2026 — Ahmed Algharib
 **Package:** `vibe_version` · **Platform:** UR5e MuJoCo twin · ROS 2 Jazzy · MoveIt 2
